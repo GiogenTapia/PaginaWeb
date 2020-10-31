@@ -133,6 +133,9 @@ h1, h2, h3, h4, h5, h6 {
 .cursos{
     display: inline-flex;
 }
+.section__titulo{
+    color: #F30D33;
+}
 .cursos__columna {
   position: relative;
   margin-bottom: 30px;
