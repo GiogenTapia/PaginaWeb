@@ -228,6 +228,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
 
 }
+
+.leer_noticias{
+
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.leer_noticias:hover{
+    cursor:pointer;
+    color: orangered;
+    background: white;
+
+}
 /*------------------Estilos responsive------------------*/
 
 @media(max-width:620px) {
