@@ -231,10 +231,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .leer_noticias{
 
-    background: #31384A;
+    background: #F30D33;
     color: #fff;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: -30px;
+    margin-right: 35%;
+    margin-left: 35%;
+    width: 30%;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
 }
 
 .leer_noticias:hover{
@@ -257,6 +262,11 @@ h1, h2, h3, h4, h5, h6 {
        border: 3px solid #F30D33;
 
 
+}
+    .leer_noticias{
+
+
+    font-size: 20px;
 }
 .img_N{
     margin-right: 20%;
