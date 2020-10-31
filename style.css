@@ -129,12 +129,27 @@ h1, h2, h3, h4, h5, h6 {
 
 
 }
-
-.info__columna {
-  background: #FBA919;
-  color: #fff;
-  padding: 15px;
+/*-----------------Estilos de cursos-----------------*/
+.cursos__columna {
+  position: relative;
   margin-bottom: 30px;
+}
+.cursos__descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.cursos__titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.cursos__img {
+  width: 100%;
 }
 /*-----------------Estilos de footer-----------------*/
 
