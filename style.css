@@ -191,19 +191,36 @@ h1, h2, h3, h4, h5, h6 {
 
 /*------------------Estilos responsive------------------*/
 
+@media(max-width:620px) {
+  .cursos__txt{
+        display:none;
+    }
+    .galeria, .T_N .info_n {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+  }
+    .contenedor_N{
+         width: 32%;
+    }
+  }
+
 @media(min-width:480px) {
   .logo {
     font-size: 40px;
   }
+
   .banner__titulo {
     font-size: 30px;
     margin: 5px 0;
   }
+
   .banner__txt {
     display: block;
     font-size: 18px;
     margin: 7px 0;
   }
+
   .info, .cursos {
     display: flex;
     justify-content: space-between;
@@ -237,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   .cursos__titulo {
     font-size: 40px;
   }
+
 }
 
 @media(min-width:1024px) {
@@ -293,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media(min-width:1280px) {
+
   .contenedor {
     width: 1200px;
   }
@@ -305,6 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   .info {
     margin-top: -220px;
   }
+
 }
 
 
@@ -316,46 +336,6 @@ h1, h2, h3, h4, h5, h6 {
 ------ */
 
 
-
-.banner_noticias {
-  margin-top: -60px;
-  position: relative;
-  z-index: -1000;
-  margin-bottom: 20px;
-background-image: url(F.jpg);
-Background-size: 100vw 100vh;
-Background-attachment: fixed;
-    height: 250px;
-}
-.banner_noticias .contenedor_noticias {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 100%;
-  color: #fff;
-  text-align: center;
-}
-
-#NT{
-    font-size: 100px;
-    color: black;
-
-
-
-
-}
-
-.banner__txt__n{
-    margin-top: -100px;
-    color: black;
-}
-
-#body_N{
-
-
-Background-attachment: fixed;
-}
 
 .Galeria{
     width: 90%;
@@ -368,23 +348,27 @@ Background-attachment: fixed;
 }
 
 .contenedor_N{
-    margin: 40px 30px;
-    height: 600px;
-    width: 450px;
+    margin: 40px 10px;
+    height: 330px;
+    width: 320px;
     align-content: center;
-       border: 10px solid #FFFC33;
+       border: 3px solid #F30D33;
 
 
 }
 .img_N{
-    margin: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
     align-content: center;
+    height: 170px;
+    width: 200px;
 }
 .info_n{
-    margin: 40px 30px;
+    margin-top: -30px;
 
 }
 .T_N{
     align-content: center;
     font-size: 40px;
+
 }
