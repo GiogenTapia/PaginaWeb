@@ -234,14 +234,31 @@ h1, h2, h3, h4, h5, h6 {
   .cursos__txt{
         display:none;
     }
-    .galeria, .T_N .info_n {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -90px;
-  }
-    .contenedor_N{
-         width: 32%;
-    }
+   .contenedor_N{
+    margin: 40px 10px;
+    height: 165px;
+    width: 160px;
+    align-content: center;
+       border: 3px solid #F30D33;
+
+
+}
+.img_N{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-content: center;
+    height: 170px;
+    width: 200px;
+}
+.info_n{
+    margin-top: -30px;
+
+}
+.T_N{
+    align-content: center;
+    font-size: 40px;
+
+}
   }
 
 @media(min-width:480px) {
