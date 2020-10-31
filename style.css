@@ -247,16 +247,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20%;
     margin-left: 20%;
     align-content: center;
-    height: 170px;
-    width: 200px;
+    height: 85px;
+    width: 100px;
 }
 .info_n{
-    margin-top: -30px;
+    display: none;
 
 }
 .T_N{
     align-content: center;
-    font-size: 40px;
+    font-size: 20px;
 
 }
   }
