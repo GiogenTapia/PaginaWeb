@@ -25,6 +25,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 99%;
 }
 /*-------------------Estilos del header-------------------*/
+.logo_pequeño{
+    height: 100px;
+    width: 100px;
+    margin-left: -20px;
+    padding-right: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
 .header {
   height: 60px;
 }
@@ -39,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   margin: 5px;
   color: BLACK;
+    margin-right: -20px;
 }
 .icon-menu {
   display: block;
