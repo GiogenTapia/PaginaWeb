@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   font-size: 30px;
-  background: #FBA919;
+  background: #F30D33;
   text-align: center;
   line-height: 45px;
   border-radius: 5px;
@@ -68,75 +68,69 @@ h1, h2, h3, h4, h5, h6 {
 .menu__link {
   display: block;
   padding: 15px;
-  background: #FBA919;
+  background: #F30D33;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .menu__link:hover, .select {
   background: white;
-  color: #FBA919;
+  color: #F30D33;
 }
 .mostrar {
   left: 0;
 }
 
-/*--------------Estilos de banner--------------*/
-
-.banner {
-  margin-top: -60px;
-  position: relative;
-  z-index: -1000;
-  margin-bottom: 20px;
-background-image: url(banner.jpg);
-Background-size: 100vw 100vh;
-Background-attachment: fixed;
-    height: 600px;
+/*--------- Banner----------*/
+.banner-imagenes{
+    width: 100%;
+     padding-top: -100px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
 }
 
-.banner .contenedor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 100%;
-  color: #fff;
-  text-align: center;
+.banner-imagenes ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 10s infinite alternate;
+    margin-top: 0;
 }
 
-.banner__txt {
-  display: none;
+.banner-imagenes ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+
 }
 
-/*-----------------Estilos de info-----------------*/
-.info__columna {
-  background: #FBA919;
-  color: #fff;
-  padding: 15px;
-  margin-bottom: 30px;
+.banner-imagenes li{
+    width: 100%;
+    list-style: none;
+
 }
 
-/*-----------------Estilos de cursos-----------------*/
-.cursos__columna {
-  position: relative;
-  margin-bottom: 30px;
+.banner-imagenes img{
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
 }
-.cursos__descripcion {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #fff;
-  background: rgba(0,0,0,0.5);
-  width: 60%;
-  height: 100%;
-  padding: 5px;
+
+@keyframes cambio{
+
+    0%{margin-left: 0%;}
+    30%{margin-left: 0%;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+
+
 }
-.cursos__titulo {
-  font-size: 25px;
-  margin: 5px 0;
-}
-.cursos__img {
-  width: 100%;
-}
+
+
 /*-----------------Estilos de footer-----------------*/
 
 .footer {
@@ -233,7 +227,7 @@ Background-attachment: fixed;
   }
   .select {
     color: #fff;
-    background: #FBA919;
+    background: #F30D33;
   }
   .banner__titulo {
     font-size: 60px;
@@ -283,74 +277,3 @@ Background-attachment: fixed;
 
 
 
-.banner_noticias {
-  margin-top: -60px;
-  position: relative;
-  z-index: -1000;
-  margin-bottom: 20px;
-background-image: url(F.jpg);
-Background-size: 100vw 100vh;
-Background-attachment: fixed;
-    height: 250px;
-}
-.banner_noticias .contenedor_noticias {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 100%;
-  color: #fff;
-  text-align: center;
-}
-
-#NT{
-    font-size: 100px;
-    color: black;
-
-
-
-
-}
-
-.banner__txt__n{
-    margin-top: -100px;
-    color: black;
-}
-
-#body_N{
-
-
-Background-attachment: fixed;
-}
-
-.Galeria{
-    width: 90%;
-    margin: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contenedor_N{
-    margin: 40px 30px;
-    height: 600px;
-    width: 450px;
-    align-content: center;
-       border: 10px solid #FFFC33;
-
-
-}
-.img_N{
-    margin: 10px;
-    align-content: center;
-}
-.info_n{
-    margin: 40px 30px;
-
-}
-.T_N{
-    align-content: center;
-    font-size: 40px;
-}
