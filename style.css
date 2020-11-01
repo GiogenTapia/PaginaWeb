@@ -293,7 +293,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*------------------Reseñas-----------------------------*/
-.contenido_resenia_izquierdo {
+            resenia {
+                width: 1000px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                float: left;
+            }
+
+            .contenido_resenia_izquierdo {
                 width: 20%;
                 margin: 10px;
                 padding: 10px;
@@ -304,13 +312,13 @@ h1, h2, h3, h4, h5, h6 {
             }
             /*-----------RESEÑAS-------------*/
 
-            .imagen_reseniai {
+            .imagen_resenia {
                 width: 300px;
                 height: 300px;
                 display: block;
             }
 
-            .resenia__descripcioni {
+            .resenia__descripcion {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -322,16 +330,16 @@ h1, h2, h3, h4, h5, h6 {
                 display: block;
             }
 
-            .resenia__tituloi {
+            .resenia__titulo {
                 font-size: 25px;
                 margin: 5px 0;
             }
 
-            .resenia__txti {
+            .resenia__txt {
                 font-size: 20px;
             }
 
-            .circuloi {
+            .circulo {
                 width: 100px;
                 height: 100px;
                 -moz-border-radius: 50%;
@@ -341,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
                 margin-left: 28%;
             }
 
-            articlei {
+            article {
                 position: relative;
                 margin-bottom: 30px;
                 width: 28%;
@@ -351,20 +359,20 @@ h1, h2, h3, h4, h5, h6 {
             }
             /*----------------ESTILOS DEL NAV------------------- */
 
-            .Articulos_izqi {
+            .Articulos_izq {
                 position: relative;
                 width: 100%;
                 height: 150px;
                 margin-top: 10px;
             }
 
-            .img_izqi {
+            .img_izq {
                 width: 100%;
                 height: 150px;
                 display: block;
             }
 
-            .circulo_izqi {
+            .circulo_izq {
                 width: 70px;
                 height: 70px;
                 -moz-border-radius: 50%;
