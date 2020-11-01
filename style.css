@@ -387,6 +387,33 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   line-height: 40px;
 }
+
+/*------------------Estilos Login-----------------------*/
+.contenedor_login{
+    display: inline-flex;
+}
+form{
+
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
 /*------------------Estilos responsive------------------*/
 
 @media(max-width:620px) {
