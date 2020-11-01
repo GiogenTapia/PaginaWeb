@@ -279,23 +279,32 @@ aside {
 /*------------------Estilos responsive------------------*/
 
 @media(max-width:620px) {
+
+  /*------------------Estilos responsive cuerpo------------------*/
+  main {
+    grid-column-start: x0;
+    grid-column-end: x4;
+  }
+  
+  aside {
+    grid-column-start: x0;
+    grid-column-end: x4;
+  }
+  /*------------------------------------------------------*/
+
   .cursos__txt{
-        display:none;
-    }
-   .contenedor_N{
+    display:none;
+  }
+  .contenedor_N{
     margin: 40px 10px;
     height: 165px;
     width: 160px;
     align-content: center;
-       border: 3px solid #F30D33;
-
-
-}
-    .leer_noticias{
-
-
+    border: 3px solid #F30D33;
+  }
+  .leer_noticias{
     font-size: 20px;
-}
+  }
 .img_N{
     margin-right: 20%;
     margin-left: 20%;
