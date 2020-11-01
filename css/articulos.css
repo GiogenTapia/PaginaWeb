@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +26,34 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   width: 99%;
 }
+/*-------------------Estilos Columna-------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: [x0] 20% [x1] 30% [x2] 30% [x3] 20% [x4];
+}
+
+header {
+  grid-column-start: x0;
+  grid-column-end: x4;
+}
+
+main {
+  grid-column-start: x0;
+  grid-column-end: x3;
+}
+
+aside {
+  grid-column-start: x3;
+  grid-column-end: x4;
+}
+
+footer {
+  grid-column-start: x0;
+  grid-column-end: x4;
+}
+
 /*-------------------Estilos del header-------------------*/
 .logo_pequeño{
     height: 100px;
@@ -120,9 +150,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*-----------------Estilos de main-----------------*/
 main {
-  position: absolute;
+
 }
 
+/*-----------------Estilos de article-----------------*/
+article {
+  display: block;
+  align-items: center;
+  margin: 10%;
+}
+article img{
+  width:100px;
+  height: auto;
+  border-radius:50%;
+  float: left;
+}
+article div{
+  padding-left: 120px;
+}
+article .article_titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+article .article_texto {
+  font-size: 20px;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+
+article .fecha {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+/*-----------------Estilos de aside-----------------*/
+aside {
+  
+}
 /*-----------------Estilos de footer-----------------*/
 
 .footer {
