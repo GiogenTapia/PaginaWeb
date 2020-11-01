@@ -407,10 +407,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15%;
 }
 
-
+#titulo_login{
+    text-align: center;
+  font-size: 40px;
+  color: #FBA919;
+}
 form{
 
-    width: 4000px;
+    width: 400px;
     margin: auto;
     background: rgba(0,0,0,0.4);
     padding: 10px 20px;
