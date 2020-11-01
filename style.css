@@ -293,7 +293,46 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------Estilos responsive------------------*/
 
 @media(max-width:620px) {
+.contenedor_v{
+    margin-left: 5%;
+         margin-right: 5%;
+    display: flex;
 
+}
+#video_cont{
+    display: inline-block;
+    width: 450px;
+
+}
+#video{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+
+}
+.videot {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+    margin-left: 10%;
+     margin-right: 10%;
+}
+.contenidov{
+    display: block;
+}
+.textov{
+    text-align: center;
+  font-size: 15px;
+  color: #fff;
+    width: 380px;
+    height: 100px;
+    margin-left: 10%;
+     margin-right: 10%;
+}
+#botonv{
+    width: 200px;
+    margin-top: 5px;
+}
 
 
 
