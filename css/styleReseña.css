@@ -1,22 +1,26 @@
 main {
-    width: 70%;
+    width: 1000px;
     text-align: center;
     margin: 10px;
     padding: 10px;
     float: left;
-    height: auto;
 }
 
 .contenido_resenia_izquierdo {
-    width: 25%;
+    width: 305px;
     margin: 10px;
     padding: 10px;
     float: left;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    background-color: mediumaquamarine;
 }
 
 .imagen_resenia {
     width: 300px;
     height: 300px;
+    display: block;
 }
 
 
@@ -31,6 +35,7 @@ main {
     width: 100%;
     height: 100%;
     padding: 5px;
+    display: block;
 }
 
 .resenia__titulo {
@@ -58,4 +63,33 @@ article {
     width: 28%;
     float: left;
     margin: 0px 22px;
+}
+
+
+/*-----------------Estilos de footer-----------------*/
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+}
+
+.footer .social [class^="icon-"] {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+}
+
+.footer .social [class^="icon-"] {
+    margin: 0 10px;
 }
