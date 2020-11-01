@@ -410,7 +410,8 @@ h1, h2, h3, h4, h5, h6 {
 #titulo_login{
     text-align: center;
   font-size: 40px;
-  color: #FBA919;
+  color: #fff;
+    width: 400px;
 }
 form{
 
