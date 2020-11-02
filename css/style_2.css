@@ -529,11 +529,10 @@ input {
     font-size: 20px;
 }
 .img_N{
-    margin-right: 20%;
-    margin-left: 20%;
+
     align-content: center;
     height: 85px;
-    width: 100px;
+    width: 100%;
 }
 .info_n{
     display: none;
