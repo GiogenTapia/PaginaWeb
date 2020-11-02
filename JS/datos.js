@@ -1,7 +1,7 @@
 var getDatos= function(){
 
     var nombre= document.getElementById("nombre").value;
-    var edad = document.getElementById("edad").value;
+    var Telefono = document.getElementById("Telefono").value;
      var correo = document.getElementById("correo").value;
     if(nombre==""){
         document.getElementById("nombre").focus();
@@ -17,10 +17,10 @@ var getDatos= function(){
     }else{
         alert("Nombre incorrecto, solo se permiten letras");
     }
-            if( isNaN(edad) ) {
+            if( isNaN(Telefono) ) {
     alert("Edad Incorrecta. La edad solo debe contener numeros");
    }else{
-    console.log("Edad: " + edad);
+    console.log("Telefono: " + Telefono);
 }
              validarEmail(correo);
         }
