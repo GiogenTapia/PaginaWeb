@@ -124,7 +124,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 500px;
     border-radius: 50px;
 }
-
+.descripcion_banner{
+    margin-left: 50px;
+}
 @keyframes cambio{
 
     0%{margin-left: 0%;}
