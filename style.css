@@ -233,30 +233,36 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------Estilos video---------------------*/
 .contenedor_v{
     margin-left: 5%;
-         margin-right: 5%;
+    margin-right: 5%;
     display: flex;
 
 }
 #video_cont{
+    
     background: #333;
 
 }
 #video{
+  
     margin-left: 30px;
     margin-top: 20px;
 
 }
 .videot {
+  
   text-align: center;
   font-size: 40px;
   color: #fff;
-    margin-left: 10%;
-     margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
 .contenidov{
+  
     display: block;
 }
 .textov{
+  
     text-align: center;
   font-size: 20px;
   color: #fff;
@@ -266,6 +272,7 @@ h1, h2, h3, h4, h5, h6 {
      margin-right: 10%;
 }
 .textoVideos{
+  margin-top: 10%;
   text-align: justify;
   font-size: 20px;
   color: #fff;
