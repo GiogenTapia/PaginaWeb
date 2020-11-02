@@ -271,100 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*------------------Reseñas-----------------------------*/
-             main {
-                width: 1000px;
-                text-align: center;
-                margin: 10px;
-                padding: 10px;
-                margin-left: 10%;
-                 margin-right: 10%;
-                float: left;
-            }
 
-            .contenido_resenia_izquierdo {
-                width: 20%;
-                margin: 10px;
-                padding: 10px;
-                float: left;
-                display: block;
-                overflow: hidden;
-                text-align: center;
-            }
-            /*-----------RESEÑAS-------------*/
-
-            .imagen_resenia {
-                width: 300px;
-                height: 300px;
-                display: block;
-            }
-
-            .resenia__descripcion {
-                position: absolute;
-                top: 0;
-                left: 0;
-                color: #fff;
-                background: rgba(0, 0, 0, 0.5);
-                width: 100%;
-                height: 100%;
-                padding: 5px;
-                display: block;
-            }
-
-            .resenia__titulo {
-                font-size: 25px;
-                margin: 5px 0;
-            }
-
-            .resenia__txt {
-                font-size: 20px;
-            }
-
-            .circulo {
-                width: 100px;
-                height: 100px;
-                -moz-border-radius: 50%;
-                -webkit-border-radius: 50%;
-                border-radius: 50%;
-                border: 6px solid rgb(241, 28, 28);
-                margin-left: 28%;
-            }
-
-            article {
-                position: relative;
-                margin-bottom: 30px;
-                width: 28%;
-                float: left;
-                margin: 0px 22px;
-                margin-top: 10px;
-            }
-            /*----------------ESTILOS DEL NAV------------------- */
-
-            .Articulos_izq {
-                position: relative;
-                width: 100%;
-                height: 150px;
-                margin-top: 10px;
-            }
-
-            .img_izq {
-                width: 100%;
-                height: 150px;
-                display: block;
-            }
-
-            .circulo_izq {
-                width: 70px;
-                height: 70px;
-                -moz-border-radius: 50%;
-                -webkit-border-radius: 50%;
-                border-radius: 50%;
-                border: 6px solid rgb(241, 28, 28);
-                margin-left: 35%;
-            }
-#btnresenas{
-        margin-top: 10px;
-    }
 /*-----------------Estilos de footer-----------------*/
 
 .footer {
@@ -532,57 +439,7 @@ input {
     #formulario{
         width: 70%;
     }
-                main {
-                    width: auto;
-                    text-align: center;
-                    margin: 10px;
-                    padding: 10px;
-                    display: block;
-                    overflow: hidden;
-                }
-                .contenido_resenia_izquierdo {
-                    display: block;
-                    text-align: center;
-                    width: 100%;
-                    margin: 0px 10px;
-                }
-                article {
-                    position: relative;
-                    width: 100%;
-                    margin: 20px 6px;
-                }
-                .imagen_resenia {
-                    width: 100%;
-                    height: 300px;
-                    display: block;
-                }
-                .resenia__descripcion {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    color: #fff;
-                    background: rgba(0, 0, 0, 0.5);
-                    width: 100%;
-                    height: 100%;
-                    padding: 5px;
-                    display: block;
-                }
-                .resenia__titulo {
-                    font-size: 25px;
-                    margin: 5px 0;
-                }
-                .resenia__txt {
-                    font-size: 20px;
-                }
-                .circulo {
-                    width: 100px;
-                    height: 100px;
-                    -moz-border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    border-radius: 50%;
-                    border: 6px solid rgb(241, 28, 28);
-                    margin-left: 42%;
-                }
+
 
     .footer{
         margin-top: 1180px
