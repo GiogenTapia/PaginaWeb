@@ -198,7 +198,10 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    background-image: url('Estilos2.css')
+    border-radius: 30px;
+    background: rgba(0,0,0,0.678);
+
+
 }
 
 .contenedor_N{
@@ -207,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 320px;
     align-content: center;
 
-    background: rgba(0,0,0,0.5);
+    background: rgba(255,0,0,0.4);
 
 
 }
@@ -219,11 +222,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .info_n{
     margin-top: -30px;
+    color: #fff;
 
 }
 .T_N{
     align-content: center;
     font-size: 40px;
+       color: #fff;
 
 }
 
