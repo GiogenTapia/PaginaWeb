@@ -52,6 +52,10 @@
                 border-radius: 50%;
                 border: 6px solid rgb(241, 28, 28);
                 margin-left: 28%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
             
             article {
@@ -85,6 +89,10 @@
                 border-radius: 50%;
                 border: 6px solid rgb(241, 28, 28);
                 margin-left: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
             }
             /*-----------------Estilos de footer-----------------*/
             
@@ -166,6 +174,10 @@
                     border-radius: 50%;
                     border: 6px solid rgb(241, 28, 28);
                     margin-left: 42%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
                 }
             }
             
