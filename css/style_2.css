@@ -198,6 +198,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    background-image: url('Estilos2.css')
 }
 
 .contenedor_N{
@@ -205,16 +206,16 @@ h1, h2, h3, h4, h5, h6 {
     height: 330px;
     width: 320px;
     align-content: center;
-       border: 3px solid #F30D33;
+
+    background: rgba(0,0,0,0.5);
 
 
 }
 .img_N{
-    margin-right: 20%;
-    margin-left: 20%;
+
     align-content: center;
     height: 170px;
-    width: 200px;
+    width: 100%;
 }
 .info_n{
     margin-top: -30px;
