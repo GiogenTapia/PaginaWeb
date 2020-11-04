@@ -25,7 +25,7 @@ img {
     float: left;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
-    width: 65%;
+    width: 80%;
     height: auto;
     margin-top: 65px;
     padding: 5px;
@@ -36,6 +36,7 @@ img {
     font-size: 40px;
     margin: 5px 0;
     width: 80%;
+    text-align: center;
 }
 
 .foro__txt {
