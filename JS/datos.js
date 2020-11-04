@@ -52,25 +52,6 @@ var Telefono = document.getElementById("Telefono").value;
         }
 
 
-
-
-
-
-
-
-    validarEmail(correo);
-
-
-
-
-
-
-
-
-
-
-
-
   function validarEmail(valor) {
     if (/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(valor)){
      alert("La dirección de email " + valor + " es correcta!.");
