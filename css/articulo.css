@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +26,81 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   width: 99%;
 }
+/*-------------------Estilos Columna-------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: [x0] 30% [x1] 20% [x2] 25% [x3] 25% [x4];
+}
+
+header {
+  grid-column-start: x0;
+  grid-column-end: x4;
+}
+
+.portada {
+  grid-column-start: x0;
+  grid-column-end: x4;
+}
+
+.user_left {
+  grid-column-start: x0;
+  grid-column-end: x1;
+}
+
+main {
+  grid-column-start: x1;
+  grid-column-end: x3;
+}
+
+aside {
+  grid-column-start: x3;
+  grid-column-end: x4;
+}
+
+footer {
+  grid-column-start: x0;
+  grid-column-end: x4;
+}
+
+/*-------------------Estilos de portada-------------------*/
+.portada {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  z-index: -2;
+}
+
+.portada img {
+  display:block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.texto-encima {
+  position: absolute;
+  background: linear-gradient(to bottom, #000, rgba(0, 0, 0, .0));
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.texto-encima h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+}
+
+.fecha {
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+}
+
 /*-------------------Estilos del header-------------------*/
 .logo_pequeño{
     height: 100px;
@@ -61,6 +138,29 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   cursor: pointer;
 }
+/*------------------Estilos del userleft------------------*/
+.user_left p {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.nombre_editor {
+  font-weight: bold;
+  color: red;
+}
+
+.twitter_editor {
+  text-decoration: none;
+  color: #000;
+}
+
+.imagen_editor {
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
 /*------------------Estilos del menu------------------*/
 .nav {
   position: absolute;
@@ -80,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #F30D33;
   text-decoration: none;
   color: #000;
-    font-weight: bold;
+  font-weight: bold;
 }
 .menu__link:hover, .select {
   background: white;
@@ -90,7 +190,95 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+/*-----------------Estilos de cursos-----------------*/
+.cursos{
+    display: inline-flex;
+}
+.section__titulo{
+    color: #F30D33;
+}
+.cursos__columna {
+  position: relative;
+  margin-bottom: 30px;
+}
+.cursos__descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.cursos__titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.cursos__img {
+  width: 100%;
+}
+/*-----------------Estilos de main-----------------*/
+main p{
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 21px;
+}
 
+main {
+  margin-top: 0px;
+  padding-top: opx;
+}
+
+main h2 {
+  font-size: 32px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/*-----------------Estilos de article-----------------*/
+article {
+  display: block;
+  align-items: center;
+  margin: 10%;
+}
+article img{
+  width:100px;
+  height: auto;
+  border-radius:50%;
+  float: left;
+}
+article div{
+  padding-left: 120px;
+}
+article .article_titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+article .article_texto {
+  font-size: 20px;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+
+article .fecha {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+/*-----------------Estilos de aside-----------------*/
+aside {
+  
+}
 /*-----------------Estilos de footer-----------------*/
 
 .footer {
@@ -98,7 +286,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 10px;
   text-align: center;
-    margin-top: 60px;
 }
 
 .footer .social [class^="icon-"] {
@@ -113,143 +300,107 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   line-height: 40px;
 }
+/* ------------------------------------
+------ */
 
-/*------------------Estilos Login-----------------------*/
-.contenedor_login{
-    display: inline-flex;
-}
-#formulario{
-    margin-left: 15%;
-    width: 400px;
 
-}
-#linea{
-    height: 450px;
-    width: 10px;
-}
-#logologin{
-    width: 450px;
-    height: 450px;
-    margin-right: 15%;
-}
 
-#titulo_login{
-    text-align: center;
-  font-size: 40px;
-  color: #fff;
-    width: 400px;
-}
-form{
-
-    width: 400px;
+.Galeria{
+    width: 90%;
     margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
+    padding: 20px;
     box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_N{
+    margin: 40px 10px;
+    height: 330px;
+    width: 320px;
+    align-content: center;
+       border: 3px solid #F30D33;
+
+
+}
+.img_N{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-content: center;
+    height: 170px;
+    width: 200px;
+}
+.info_n{
+    margin-top: -30px;
+
+}
+.T_N{
+    align-content: center;
+    font-size: 40px;
 
 }
 
-#referencia{
-    margin-left: 40%;
-        margin-right: 30%;
-
-    text-align: center;
-}
-input {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
-}
 .leer_noticias{
 
     background: #F30D33;
     color: #fff;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: -30px;
     margin-right: 35%;
     margin-left: 35%;
     width: 30%;
      font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 
 .leer_noticias:hover{
     cursor:pointer;
     color: orangered;
     background: white;
-    }
 
+}
 /*------------------Estilos responsive------------------*/
 
 @media(max-width:620px) {
-.contenedor_v{
-    margin-left: 5%;
-         margin-right: 5%;
-    display: flex;
 
-}
-#video_cont{
-    display: inline-block;
-    width: 450px;
+  .texto-encima h1 {
+    font-size: 40px;
+  }
 
-}
-#video{
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 400px;
+  main {
+    padding: 20px;
+  }
+  /*------------------Estilos responsive cuerpo------------------*/
+  .user_left {
+    grid-column-start: x0;
+    grid-column-end: x4;
+  }
 
-}
-.videot {
-  text-align: center;
-  font-size: 40px;
-  color: #fff;
-    margin-left: 10%;
-     margin-right: 10%;
-}
-.contenidov{
-    display: block;
-}
-.textov{
-    text-align: center;
-  font-size: 15px;
-  color: #fff;
-    width: 380px;
-    height: 100px;
-    margin-left: 10%;
-     margin-right: 10%;
-}
-#botonv{
-    width: 200px;
-    margin-top: 5px;
-}
-
-
-
-
+  main {
+    grid-column-start: x0;
+    grid-column-end: x4;
+  }
+  
+  aside {
+    grid-column-start: x0;
+    grid-column-end: x4;
+  }
+  /*------------------------------------------------------*/
 
   .cursos__txt{
-        display:none;
-    }
-   .contenedor_N{
+    display:none;
+  }
+  .contenedor_N{
     margin: 40px 10px;
     height: 165px;
     width: 160px;
     align-content: center;
-       border: 3px solid #F30D33;
-
-
-}
-    .leer_noticias{
-
-
+    border: 3px solid #F30D33;
+  }
+  .leer_noticias{
     font-size: 20px;
-}
+  }
 .img_N{
     margin-right: 20%;
     margin-left: 20%;
@@ -267,93 +418,7 @@ input {
 
 }
   }
-@media(max-width:980px) {
-    #linea{
-    display: none;
-}
-#logologin{
-    display: none;
-}
-    #formulario{
-        width: 70%;
-    }
-                main {
-                    width: auto;
-                    text-align: center;
-                    margin: 10px;
-                    padding: 10px;
-                    display: block;
-                    overflow: hidden;
-                }
-                .contenido_resenia_izquierdo {
-                    display: block;
-                    text-align: center;
-                    width: 100%;
-                    margin: 0px 10px;
-                }
-                article {
-                    position: relative;
-                    width: 100%;
-                    margin: 20px 6px;
-                }
-                .imagen_resenia {
-                    width: 100%;
-                    height: 300px;
-                    display: block;
-                }
-                .resenia__descripcion {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    color: #fff;
-                    background: rgba(0, 0, 0, 0.5);
-                    width: 100%;
-                    height: 100%;
-                    padding: 5px;
-                    display: block;
-                }
-                .resenia__titulo {
-                    font-size: 25px;
-                    margin: 5px 0;
-                }
-                .resenia__txt {
-                    font-size: 20px;
-                }
-                .circulo {
-                    width: 100px;
-                    height: 100px;
-                    -moz-border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    border-radius: 50%;
-                    border: 6px solid rgb(241, 28, 28);
-                    margin-left: 42%;
-                }
 
-    .footer{
-        margin-top: 80px
-    }
-    #btnresenas{
-        margin-top: 10px;
-    }
-            }
-
-
-
-
-@media(max-width:980px){
-    #video_cont{
-    display: inline-block;
-    width:90%;
-
-}
-
-#video{
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 90%;
-
-}
-}
 @media(min-width:480px) {
   .logo {
     font-size: 40px;
