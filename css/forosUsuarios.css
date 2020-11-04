@@ -302,9 +302,10 @@ aside {}
     background: #F30D33;
     color: #fff;
     padding: 20px;
-    margin-top: -30px;
+    margin-top: 30px;
     margin-right: 35%;
     margin-left: 35%;
+    margin-bottom: 10px;
     width: 30%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 30px;

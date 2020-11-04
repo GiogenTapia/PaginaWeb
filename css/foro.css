@@ -13,6 +13,30 @@ article {
     font-size: 30px;
 }
 
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #F30D33;
+}
+
+.btn_agregar {
+    background: #F30D33;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 35%;
+    margin-left: 35%;
+    width: 30%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+
+.btn_agregar:hover {
+    cursor: pointer;
+    color: orangered;
+    background: white;
+}
+
 img {
     float: left;
     width: 150px;
