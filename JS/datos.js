@@ -11,6 +11,6 @@ var getDatos= function(){
      alert("La dirección de email es incorrecta!.");
     }
   }
-
+}
 
 
