@@ -485,7 +485,24 @@ input {
     }
             }
 
+@media(max-width:910px){
+       #videoHallowen{
+        margin-left: 10%;
+         margin-right: 10%;
+        width: 80%;
+    }
+#video_cont{
+    display: inline-block;
+    width: 450px;
 
+}
+    #videoLol{
+        margin-left: 10%;
+         margin-right: 10%;
+        width: 80%;
+    }
+
+}
 
 
 @media(max-width:980px){
