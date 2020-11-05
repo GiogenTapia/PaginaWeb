@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: [x0] 20% [x1] 30% [x2] 30% [x3] 20% [x4];
+  grid-template-columns: [x0] 20% [x1] 30% [x2] 10% [x3] 40% [x4];
 }
 
 header {
@@ -150,6 +150,7 @@ footer {
 }
 /*-----------------Estilos de main-----------------*/
 main {
+  margin-bottom: 20px;
 
 }
 

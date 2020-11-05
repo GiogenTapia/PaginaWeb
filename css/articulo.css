@@ -237,6 +237,12 @@ main h2 {
   margin-top: 0px;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 21px;
+}
+
 /*-----------------Estilos de article-----------------*/
 article {
   display: block;
