@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
   font-size: 20px;
   color: #fff;
-  width: 800px;
+  width: 600px;
   height: 200px;
   margin-left: 5%;
 
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 10px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 80px;
 }
 
 .footer .social [class^="icon-"] {
@@ -372,11 +372,31 @@ input {
     display: flex;
 
 }
+    .textoVideos{
+  text-align: justify;
+  font-size: 18px;
+  color: #fff;
+  width: 400px;
+  height: 200px;
+  margin-left: 5%;
+
+}
+
+    #videoHallowen{
+        margin-left: 5%;
+         margin-right: 5%;
+        width: 400px
+    }
 #video_cont{
     display: inline-block;
     width: 450px;
 
 }
+    #videoLol{
+        margin-left: 5%;
+         margin-right: 5%;
+        width: 400px
+    }
 #video{
     margin-left: 30px;
     margin-top: 20px;
@@ -458,7 +478,7 @@ input {
 
 
     .footer{
-        margin-top: 1180px
+        margin-top: 80px
     }
     #btnresenas{
         margin-top: 10px;
