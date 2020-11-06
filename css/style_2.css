@@ -3,6 +3,10 @@
 * {
   box-sizing: border-box;
 }
+a{
+text-decoration: none;
+    color: black;
+}
 img {
   display: block;
   max-width: 100%;
@@ -84,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu__link:hover, .select {
   background: white;
+  color: #F30D33;
+}
+a:hover, .select{
+   background: white;
   color: #F30D33;
 }
 .mostrar {
