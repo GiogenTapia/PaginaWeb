@@ -5,6 +5,7 @@ $dbuser = "root";
 $dbpass = "root";
 $dbname = "paginaweb";
 
-$conectar = mysqli_connect($dbhost, $dbuser,$dbpass,$dbname);
+$conectar = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+
 
 ?>
