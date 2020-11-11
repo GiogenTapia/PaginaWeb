@@ -3,26 +3,26 @@
 $dbhost ="localhost";
 $dbuser = "root";
 $dbpass = "root";
-$dbname = "test";
+$dbname = "paginaweb";
 
 $conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
 if (!$conn){
     die("no hay conexion: ").mysqli_connect_error());
 }
-$nombre = $_POST[""];
-$pass = $_POST[""];
+$correo = $_POST["correo"];
+$pass = $_POST["pass"];
 
-$query= mysqli_query($conn,"SELECT * FROM login WHERE usuario='".$nombre."' and password='".$pass."'");
+$query= mysqli_query($conn,"SELECT * FROM login WHERE usuario='".$correo."' and password='".$pass."'");
 $nr= mysqli_num_rows($query);
 
 if($nr == 1)
 {
-    echo "Bienvenido: " .$nombre;
+    echo "Bienvenido: " .$correo;
 
 }
 else if( $nr == 0)
 {
-    echo: "No ingreso";
+    echo "No ingreso";
 }
 ?>
