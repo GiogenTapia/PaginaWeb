@@ -1,6 +1,15 @@
 <?php
 
-require 'conexion.php';
+
+$dbhost ="localhost";
+$dbuser = "root";
+$dbpass = "root";
+$dbname = "paginaweb";
+
+$conectar = mysqli_connect($dbhost, $dbuser,$dbpass,$dbname);
+
+
+
 $correo = $_POST['correo'];
 $pass = $_POST['pass'];
 $nombre = $_POST['nombre'];
