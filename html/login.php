@@ -13,7 +13,7 @@ if (!$conn){
 $correo = $_POST["correo"];
 $pass = $_POST["pass"];
 
-$query = mysqli_query($conn,"SELECT * FROM login WHERE usuario = '".$correo."' and password = '".$pass."'");
+$query = mysqli_query($conn,"SELECT * FROM login WHERE correo = '".$correo."' and pass = '".$pass."'");
 $nr= mysqli_num_rows($query);
 
 if($nr == 1)
