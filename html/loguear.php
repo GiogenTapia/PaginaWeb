@@ -1,7 +1,7 @@
 <?php
 
 require 'conexion.php';
-
+session_start();
 if (!$conectar){
     die("no hay conexion: ".mysqli_connect_error());
 }
@@ -14,6 +14,7 @@ $nr= mysqli_num_rows($query);
 
 if($nr == 1)
 {
+    $_SESSION['nombre']=$nombre;
     header("location: perfil.php");
 
 }
