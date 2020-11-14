@@ -43,7 +43,7 @@
 <form method="post"action="loguear.php" id="formulario">
         <h2 id="titulo_login">Inicia sesión</h2>
 
-            <input type="text" name="correo" placeholder="Nombre de Usuario">
+            <input type="text" name="nombre" placeholder="Nombre de Usuario">
             <input type="text" name="pass" placeholder="Contraseña">
     <input type="submit" class="leer_noticias" id="btnresenas" value="Iniciar">
     <a id="referencia" href="Registro.html">Registrate</a>
