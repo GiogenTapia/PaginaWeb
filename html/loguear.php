@@ -5,11 +5,11 @@ session_start();
 if (!$conectar){
     die("no hay conexion: ".mysqli_connect_error());
 }
-$correo = $_POST["correo"];
+$nombre = $_POST["nombre"];
 $pass = $_POST["pass"];
 
 
-$query = mysqli_query($conectar,"SELECT * FROM login WHERE correo = '".$correo."' and pass = sha('".$pass."')");
+$query = mysqli_query($conectar,"SELECT * FROM login WHERE nombre = '".$nombre."' and pass = sha('".$pass."')");
 
 $nr= mysqli_num_rows($query);
 
