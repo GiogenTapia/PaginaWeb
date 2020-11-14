@@ -3,13 +3,13 @@
 
 require 'conexion.php';
 
-$correo = $_POST['correo'];
+$correo = $_POST['nombre'];
 $pass = $_POST['pass'];
-$nombre = $_POST['nombre'];
+$nombre = $_POST['correo'];
 $apellidos = $_POST['apellidos'];
 $telefono = $_POST['telefono'];
 
-$insertar = "INSERT INTO login VALUES (0,'$correo',sha('$pass'),'$nombre','$apellidos',$telefono)";
+$insertar = "INSERT INTO login VALUES (0,'$nombre',sha('$pass'),'$correo','$apellidos',$telefono)";
 $query= mysqli_query($conectar,$insertar);
 
 if($query){
