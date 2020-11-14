@@ -35,8 +35,8 @@
 <?php
     session_start();
         $nombre= $_SESSION['nombre'];
-        echo"<h1> Bienvenido </h1><br>
-        <br><h1> Nombre de Usuario $nombre </h1> <br>";
+        echo"<h1> Bienvenido $nombre</h1><br>
+        ";
 
 
 ?>
