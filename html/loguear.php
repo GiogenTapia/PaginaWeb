@@ -14,9 +14,7 @@ $nr= mysqli_num_rows($query);
 
 if($nr == 1)
 {
-    echo "<script>
-    location.href='../index.html';
-    </script>";
+    header("location: perfil.php");
 
 }
 else if( $nr == 0)
