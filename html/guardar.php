@@ -13,8 +13,12 @@ $insertar = "INSERT INTO login VALUES (0,'$correo',sha('$pass'),'$nombre','$apel
 $query= mysqli_query($conectar,$insertar);
 
 if($query){
-    echo "<script> alert('correcto');</script>";
+    echo "<script> alert('Tu usuario se registro correctamente');
+    location.href='login.html';
+    </script>";
 }else{
-    echo "<script> alert('incorrecto');</script>";
+    echo "<script> alert('tu usuario se registro icorrectamente');
+    location.href='Registro.html';
+    </script>";
 
 }
