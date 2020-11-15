@@ -14,7 +14,7 @@ $query= mysqli_query($conectar,$insertar);
 
 if($query){
     echo "<script> alert('Tu usuario se registro correctamente');
-    location.href='login.html';
+    location.href='login.php';
     </script>";
 }else{
     echo "<script> alert('tu usuario se registro icorrectamente');

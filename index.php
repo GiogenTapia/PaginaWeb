@@ -34,7 +34,28 @@
                     <li class="menu__item"><a class="menu__link" href="html/resenas.html">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link" href="html/videos.html">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="html/foroCat.html">Foros</a></li>
+                    <?php
+                    session_start();
+                    require 'html/conexion.php';
+
+                    if(!$_SESSION=''){
+                      $nombre= $_SESSION['nombre'];
+                    }
+
+
+                    if ( $nombre='' ) { ?>
                     <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
+
+                    <?php } ?>
+
+
+                    <?php if ( !$nombre='') { ?>
+                    <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
+
+                    <?php } ?>
+
+
+
                 </ul>
             </nav>
         </div>

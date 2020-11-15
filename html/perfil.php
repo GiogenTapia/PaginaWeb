@@ -17,7 +17,7 @@
             <span class="icon-menu" id="btn-menu"></span>
             <nav class="nav" id="nav">
                 <ul class="menu">
-                     <li class="menu__item"><a class="menu__link " href="../index.html">Inicio</a></li>
+                     <li class="menu__item"><a class="menu__link " href="../index.php">Inicio</a></li>
                     <li class="menu__item"><a class="menu__link" href="Noticias.html">Noticias</a></li>
                     <li class="menu__item"><a class="menu__link" href="articulos.html">Articulos</a></li>
                     <li class="menu__item"><a class="menu__link" href="resenas.html">Reseñas</a></li>
@@ -34,14 +34,31 @@
 
 <?php
     session_start();
-        $nombre= $_SESSION['nombre'];
-        echo"<h1> Bienvenido $nombre</h1><br>
-        ";
+     require 'conexion.php';
+     $nombre= $_SESSION['nombre'];
 
+    $query = mysqli_query($conectar,"SELECT * FROM login WHERE nombre = '".$nombre."'");
 
+       if($query){
+       while($row=$query->fetch_array()){
+             $ID_login=$row['ID_login'];
+             $correo=$row['correo'];
+             $apellidos=$row['apellidos'];
+             $telefono=$row['telefono'];
+         }
+       }
 ?>
-    </div>
 
+    <div>
+
+        <h2>Nombre de usuario <?php echo $nombre ?></h2>
+        <h2>Correo <?php echo $correo ?></h2>
+        <h2>Apellidos <?php echo $apellidos ?></h2>
+        <h2>Telefono <?php echo $telefono ?></h2>
+       <button type="button" class="leer_noticias" id="btnresenas" value="Leer mas noticias"><a href="cerrar.php">Cerrar</a></button>
+
+    </div>
+    </div>
      <footer class="footer">
         <div class="contenedor">
             <div class="social">
@@ -53,6 +70,6 @@
         </div>
     </footer>
     <script src="../JS/Recursos.js"></script>
-</body>
 
+    </body>
 </html>
