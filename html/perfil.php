@@ -23,7 +23,7 @@
                     <li class="menu__item"><a class="menu__link" href="resenas.html">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link" href="videos.html">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="foroCat.html">Foros</a></li>
-                    <li class="menu__item"><a class="menu__link select" href="login.html">Login</a></li>
+                    <li class="menu__item"><a class="menu__link select" href="perfil.php">Perfil</a></li>
                 </ul>
             </nav>
         </div>
@@ -49,12 +49,12 @@
        }
 ?>
 
-    <div>
+    <div class="perfil" id="info_usuario">
 
-        <h2>Nombre de usuario <?php echo $nombre ?></h2>
-        <h2>Correo <?php echo $correo ?></h2>
-        <h2>Apellidos <?php echo $apellidos ?></h2>
-        <h2>Telefono <?php echo $telefono ?></h2>
+        <h2 id="info_usuario">Nombre de usuario: <?php echo $nombre ?></h2>
+        <h2 id="info_usuario">Correo: <?php echo $correo ?></h2>
+        <h2 id="info_usuario">Apellidos:  <?php echo $apellidos ?></h2>
+        <h2 id="info_usuario">Telefono: <?php echo $telefono ?></h2>
        <button type="button" class="leer_noticias" id="btnresenas" value="Leer mas noticias"><a href="cerrar.php">Cerrar</a></button>
 
     </div>
