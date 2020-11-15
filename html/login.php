@@ -23,7 +23,7 @@
                     <li class="menu__item"><a class="menu__link" href="resenas.html">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link" href="videos.html">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="foroCat.html">Foros</a></li>
-                    <li class="menu__item"><a class="menu__link select" href="login.html">Login</a></li>
+                    <li class="menu__item"><a class="menu__link select" href="html/login.php">Login</a></li>
                 </ul>
             </nav>
         </div>
