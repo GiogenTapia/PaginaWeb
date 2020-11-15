@@ -38,18 +38,18 @@
                     session_start();
                     require 'html/conexion.php';
 
-                    if(!$_SESSION=''){
+                    if(!$_SESSION=null){
                       $nombre= $_SESSION['nombre'];
                     }
 
 
-                    if ( $nombre='' ) { ?>
+                    if ( $nombre=null ) { ?>
                     <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
 
                     <?php } ?>
 
 
-                    <?php if ( !$nombre='') { ?>
+                    <?php if ( !$nombre=null) { ?>
                     <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
 
                     <?php } ?>

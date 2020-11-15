@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$nombre= $_SESSION[''];
+$nombre= $_SESSION[null];
 session_destroy();
 header("location: login.php");
 exit();
