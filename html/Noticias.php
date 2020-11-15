@@ -37,7 +37,7 @@
                             <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
 
 
-                                <?php } ?>
+                    <?php } ?>
                 </ul>
             </nav>
         </div>
@@ -145,9 +145,6 @@
         </nav>
 
     </aside>
-    <main>
-        <input type="button" class="leer_noticias" value="Más artículos" class="button" >
-    </main>
     <footer class="footer">
         <div class="contenedor">
             <div class="social">
