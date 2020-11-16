@@ -10,6 +10,9 @@ $apellidos = $_POST['apellidos'];
 $telefono = $_POST['telefono'];
 
 
+
+
+
 $insertar = "INSERT INTO login VALUES (0,'$nombre',sha('$pass'),'$correo','$apellidos',$telefono)";
 $query= mysqli_query($conectar,$insertar);
 

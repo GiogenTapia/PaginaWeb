@@ -51,14 +51,16 @@
 
     <div class="perfil" id="info_usuario">
 
-        <h2 id="info_usuario">Nombre de usuario: <?php echo $nombre ?></h2>
-        <h2 id="info_usuario">Correo: <?php echo $correo ?></h2>
-        <h2 id="info_usuario">Apellidos:  <?php echo $apellidos ?></h2>
-        <h2 id="info_usuario">Telefono: <?php echo $telefono ?></h2>
-       <button type="button" class="leer_noticias" id="btnresenas" value="Leer mas noticias"><a href="cerrar.php">Cerrar</a></button>
+        <p>Nombre de usuario: <?php echo $nombre ?></p> <br>
+        <p> Correo: <?php echo $correo ?></p><br>
+        <p>Apellidos:  <?php echo $apellidos ?></p><br>
+        <p>Telefono: <?php echo $telefono ?></p> <br>
+
 
     </div>
+
     </div>
+       <button type="button" class="leer_noticias" id="btncerrar" value="Leer mas noticias"><a href="cerrar.php">Cerrar</a></button>
      <footer class="footer">
         <div class="contenedor">
             <div class="social">
