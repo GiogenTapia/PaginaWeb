@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento xD</title>
+    <script src="validar.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
 
 
 
-<form method="post" action="guardar.php" id="formulario">
+<form method="post" action="guardar.php" id="formulario" onsubmit="return validar();">
         <h2 id="titulo_login">Registro</h2>
 
             <input type="text" name="nombre" placeholder="Nombre de usuario">

@@ -46,7 +46,7 @@
             <input type="text" name="nombre" placeholder="Nombre de Usuario">
             <input type="text" name="pass" placeholder="Contraseña">
     <input type="submit" class="leer_noticias" id="btnresenas" value="Iniciar">
-    <a id="referencia" href="Registro.html">Registrate</a>
+    <a id="referencia" href="Registro.php">Registrate</a>
 
         </form>
 
