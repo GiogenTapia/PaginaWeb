@@ -19,7 +19,7 @@ if($query){
     </script>";
 }else{
     echo "<script> alert('tu usuario se registro icorrectamente');
-    location.href='Registro.html';
+    location.href='Registro.php';
     </script>";
 
 }
