@@ -15,7 +15,7 @@
                 <span class="icon-menu" id="btn-menu"></span>
                 <nav class="nav" id="nav">
                     <ul class="menu">
-                          <li class="menu__item"><a class="menu__link " href="../index.php">Inicio</a></li>
+                    <li class="menu__item"><a class="menu__link " href="../index.php">Inicio</a></li>
                     <li class="menu__item"><a class="menu__link" href="Noticias.php">Noticias</a></li>
                     <li class="menu__item"><a class="menu__link select" href="articulos.php">Articulos</a></li>
                     <li class="menu__item"><a class="menu__link" href="resenas.php">Reseñas</a></li>
