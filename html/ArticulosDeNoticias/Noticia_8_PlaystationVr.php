@@ -56,8 +56,8 @@
                 Así pues, todo parece indicar, por ahora, que el número de juegos de PlayStation VR disminuirá en los siguientes años, aunque existirá la posibilidad de que los desarrolladores los lancen como juegos de PlayStation 4 y se puedan jugar en PlayStation 5 por medio de la retrocompatibilidad.  
                 ¿Qué opinas de esto? ¿Eres usuario de PlayStation VR? Cuéntanos en los comentarios.
             </p>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

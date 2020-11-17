@@ -53,8 +53,8 @@
             <p>¿Qué opinas de esa información? ¿Sintonizarás el evento? Cuéntanos en los comentarios.
                 Lo último que supimos de la supuesta trilogía mejorada de Mass Effect es que se llamaría Mass Effect: Legendary Edition y que apareció un registro con dicho nombre en un sistema de clasificación en línea de Corea. Puedes encontrar más noticias relacionadas con la serie si visitas esta página.
             </p>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

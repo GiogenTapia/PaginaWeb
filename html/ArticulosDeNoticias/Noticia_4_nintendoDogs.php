@@ -56,8 +56,8 @@
                 
                 La única manera que ha estado vigente la serie es por medio de apariciones esporádicas en otros juegos de Nintendo, como en los de la serie Super Smash Bros. y en Super Mario Odyssey</p>
             <iframe width="740" height="400" src="https://www.youtube.com/embed/xUBSCyFoWTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

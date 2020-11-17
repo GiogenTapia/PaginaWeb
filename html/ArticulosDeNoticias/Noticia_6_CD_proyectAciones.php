@@ -49,8 +49,8 @@
                 ¿Qué piensas de las consecuencias del retraso de Cyberpunk 2077? ¿Crees que el decremento fue mucho? Cuéntanos en los comentarios.     
                 CD Projekt RED participó recientemente en una junta con inversionistas y en ella se insinuó que el retraso más reciente de Cyberpunk 2077 se debió a que las versiones de las consolas de actual generación no están listas.
             </p>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

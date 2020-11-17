@@ -53,8 +53,8 @@
                 “La complejidad y el alcance de MCC plantean desafíos únicos de los que todavía estoy aprendiendo, pero me encantan las oportunidades que ofrece”, agregó el productor. Para finalizar, afirmó que escucharán todas las peticiones de la comunidad y las tomarán en cuenta.
                 
                 “Una cosa que ya he aprendido aquí es que este equipo escucha a la comunidad como un elemento crucial de nuestra planificación. Me encanta eso y estoy emocionado de ver lo que podemos hacer juntos en el futuro”, concluyó Hohl.</p>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

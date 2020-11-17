@@ -54,8 +54,8 @@
             <p>¿Qué sorpresa crees que The Pokémon Company guarde para los fans de la serie? ¿Qué juego te gustaría que la compañía anunciara? Cuéntanos en los comentarios.
                 El anime de Pokémon también está de fiesta, pues acaba de estrenar su 23.ª temporada, Viajes Pokémon, y para conmemorarlo llevó contenido especial a Pokémon GO. En cuanto a Pokémon Sword & Shield, recientemente llegó la segunda expansión, The Crown Tundra, con adiciones muy importantes de gameplay. Puedes encontrar más noticias relacionadas con la franquicia si visitas esta página.
             </p>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > --> 
         </main>
         <aside>
             <h2>Aquí van los anuncios.</h2>

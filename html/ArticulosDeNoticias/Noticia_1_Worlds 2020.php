@@ -54,8 +54,8 @@
             <iframe width="600" height="400" src="https://www.youtube.com/embed/_SQwnMomwcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>SK Telecom T1 y Samsung Galaxy dominaron la competencia de 2015 a 2017, pero fue en 2018 y 2019 que los equipos coreanos perdieron su liderazgo ante las victorias de los equipos chinos Invictus Gaming y FunPlus Phoenix. Ahora, con la victoria de Damwon, la copa regresa a manos de equipos surcoreanos.</p>
             <h2 class="section__titulo">Deja un comentario</h2>
-            <textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
-            <input type="button" class="leer_noticias" value="Publicar" > 
+            <!--<textarea id="comentario" name="ElComentario" rows="15" cols="100"></textarea>
+            <input type="button" class="leer_noticias" value="Publicar" > -->
 
         </main>
         <aside>
