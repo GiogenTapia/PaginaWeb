@@ -15,13 +15,11 @@
                 <span class="icon-menu" id="btn-menu"></span>
                 <nav class="nav" id="nav">
                     <ul class="menu">
-                         <li class="menu__item"><a class="menu__link " href="../index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="menu__link select" href="Noticias.html">Noticias</a></li>
-                    <li class="menu__item"><a class="menu__link" href="articulos.html">Articulos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="resenas.html">Reseñas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="videos.html">Videos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="foroCat.html">Foros</a></li>
-                    <li class="menu__item"><a class="menu__link " href="login.html">Login</a></li>
+                        <li class="menu__item"><a class="menu__link select" href="Noticias.php">Noticias</a></li>
+                        <li class="menu__item"><a class="menu__link" href="articulos.php">Articulos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="resenas.php">Reseñas</a></li>
+                        <li class="menu__item"><a class="menu__link " href="videos.php">Videos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="foroCat.php">Foros</a></li>
                     </ul>
                 </nav>
             </div>

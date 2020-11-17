@@ -56,7 +56,7 @@
         <article>
             <img src="../img/N_1.png" class="img_izq"></a>
             <div>
-                <a class="article_titulo" href="">
+                <a class="article_titulo" href="/PaginaWeb/html/ArticulosDeNoticias/Noticia_1_Worlds%202020.php">
                     Damwon se corona en Worlds 2020
                 </a>
                 <p class="article_texto">El equipo surcoreano venció a Suning en la gran final.</p>
