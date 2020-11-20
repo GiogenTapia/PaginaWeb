@@ -83,7 +83,7 @@
                 <p class="fecha">31/10/2020</p>
             </div>
         </article>
-        <a href="nuevoForo.html"><input type="button" class="leer_noticias" value="Agregar Foro"></a>
+        <a href="nuevoForo.php"><input type="button" class="leer_noticias" value="Agregar Foro"></a>
     </main>
 
     <footer class="footer">
@@ -105,4 +105,4 @@
 =======
 
 </html>
->>>>>>> origin/master:forosUsu.html
+>>>>>>> origin/master:forosUsu.php

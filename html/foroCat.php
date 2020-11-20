@@ -48,7 +48,7 @@
     <main>
         <article>
 
-            <a href="forosUsu.html"><img src="../img/Nintendo.jpg"></a>
+            <a href="forosUsu.php"><img src="../img/Nintendo.jpg"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">Nintendo</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de Nintendo.</div>
@@ -56,7 +56,7 @@
         </article>
         <article>
 
-            <a href="forosUsu.html"><img src="../img/XBOX.png"></a>
+            <a href="forosUsu.php"><img src="../img/XBOX.png"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">XBOX</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de Xbox.</div>
@@ -64,14 +64,14 @@
         </article>
         <article>
 
-            <a href="forosUsu.html"><img src="../img/Play.jpg"></a>
+            <a href="forosUsu.php"><img src="../img/Play.jpg"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">Playstation</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de Playstation.</div>
             </div>
         </article>
         <article>
-            <a href="forosUsu.html"><img src="../img/PC.png"></a>
+            <a href="forosUsu.php"><img src="../img/PC.png"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">PC</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de PC.</div>
@@ -79,7 +79,7 @@
         </article>
 
     </main>
-    <a href="nuevoForo.html"> <input type="button" class="btn_agregar" id="btnresenas" value="Agregar Foro"></a>
+    <a href="nuevoForo.php"> <input type="button" class="btn_agregar" id="btnresenas" value="Agregar Foro"></a>
     <footer class="footer">
         <div class="contenedor">
             <div class="social">
