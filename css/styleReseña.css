@@ -15,6 +15,23 @@
                 overflow: hidden;
                 text-align: center;
             }
+            
+            .leer_noticias2 {
+                background: #F30D33;
+                color: #fff;
+                padding: 20px;
+                margin-top: 30px;
+                width: 30%;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 30px;
+                float: left;
+            }
+            
+            .leer_noticias2:hover {
+                cursor: pointer;
+                color: orangered;
+                background: white;
+            }
             /*-----------RESEÑAS-------------*/
             
             .imagen_resenia {
@@ -42,6 +59,7 @@
             
             .resenia__txt {
                 font-size: 20px;
+                text-align: justify;
             }
             
             .circulo {
@@ -124,6 +142,9 @@
             /* ---------------------RESPONSIVIDAD-------------------  */
             
             @media(max-width:980px) {
+                .leer_noticias2 {
+                    font-size: 20px;
+                }
                 main {
                     width: auto;
                     text-align: center;

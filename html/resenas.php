@@ -17,26 +17,26 @@
             <span class="icon-menu" id="btn-menu"></span>
             <nav class="nav" id="nav">
                 <ul class="menu">
-                     <li class="menu__item"><a class="menu__link " href="../index.php">Inicio</a></li>
+                    <li class="menu__item"><a class="menu__link " href="../index.php">Inicio</a></li>
                     <li class="menu__item"><a class="menu__link" href="Noticias.php">Noticias</a></li>
                     <li class="menu__item"><a class="menu__link" href="articulos.php">Articulos</a></li>
                     <li class="menu__item"><a class="menu__link select" href="resenas.php">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link " href="videos.php">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="foroCat.php">Foros</a></li>
-                      <?php
+                    <?php
                     session_start();
                     require 'conexion.php';
 
                     ?>
                     <?php  if($_SESSION==true){
                        ?>
-                        <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
+                    <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
 
-                     <?php }else { ?>
-                            <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
+                    <?php }else { ?>
+                    <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
 
 
-                                <?php } ?>
+                    <?php } ?>
                 </ul>
             </nav>
         </div>
@@ -44,7 +44,7 @@
 
 
 
-    <main>
+    <main id= "capa">
 
         <h2 class="section__titulo">Reseñas</h2>
         <a href="">
@@ -80,7 +80,7 @@
             </article>
         </a>
 
-        <a href="">
+        <a href="resena.php">
             <article>
                 <img src="../img/5.jpg" class="imagen_resenia">
                 <div class="resenia__descripcion">
@@ -114,9 +114,13 @@
 
 
 
-        <input type="button" class="leer_noticias" id="btnresenas" value="Leer mas reseñas">
+     
 
+       
     </main>
+  
+   
+
 
     <aside class="contenido_resenia_izquierdo">
         <h2 class="section__titulo">Mejores</h2>
@@ -147,7 +151,8 @@
         </nav>
 
     </aside>
-
+    <input type="button" class="leer_noticias" id="btnresenas" value="Leer mas reseñas"
+            onclick="addElemento();" id="botonMas">
 
     <footer class="footer">
         <div class="contenedor">
@@ -161,6 +166,8 @@
     </footer>
 
     <script src="../JS/Recursos.js"></script>
+    <script src="../JS/cargar.js"></script>
+   
 
 </body>
 
