@@ -79,7 +79,22 @@
         </article>
 
     </main>
-    <a href="nuevoForo.php"> <input type="button" class="btn_agregar" id="btnresenas" value="Agregar Foro"></a>
+
+
+                <?php
+                    session_start();
+                    require 'conexion.php';
+
+                    ?>
+                    <?php  if($_SESSION==true){
+                       ?>
+              <a href="nuevoForo.php"> <input type="button" class="btn_agregar" id="btnresenas" value="Agregar Foro"></a>
+                     <?php } ?>
+
+
+
+
+
     <footer class="footer">
         <div class="contenedor">
             <div class="social">

@@ -55,7 +55,7 @@
     <input type="text" name="apellidos" placeholder="Apellidos">
     <input type="text" name="telefono" placeholder="Telefono">
 
-    <button type="submit" class="leer_noticias" id="btnresenas">Registrar</button>
+    <button type="submit" class="leer_noticias" id="btnresenas" onclick="getDatos();">Registrar</button>
 
 
         </form>
