@@ -193,7 +193,9 @@ input {
 
 
 #info_usuario{
-    width: 400px;
+    width: 600px;
+    border-radius: 50px;
+    border-color: aliceblue;
 }
 /*------------------Estilos responsive------------------*/
 
