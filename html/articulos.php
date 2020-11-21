@@ -42,47 +42,20 @@
         </header>
         <main>
             <h2 class="section__titulo">Artículos</h2>
-            <article>
-                <a title="Smach" href=""><img src="../img/7.jpg" ></a>
-                <div>
-                    <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                    <p class="article_texto">El Smach anda barato, cómpralo en corto.</p>
-                    <p class="fecha">31/10/2020</p>
+            <div id = "container">
+                <h2 class="section__titulo">Artículos</h2>
+                <article>
+                    <a title="Smach" href="articulo.php"><img src="../img/7.jpg" ></a>
+                    <div>
+                        <a class="article_titulo" href="articulo.php">
+                            #ViernesRetro: El Smash anda barato
+                        </a>
+                        <p class="article_texto">El Smach anda barato, cómpralo en corto.</p>
+                        <p class="fecha">31/10/2020</p>
+                    </div>
+                </article>
                 </div>
-            </article>
-            <article>
-                <a title="Smach" href=""><img src="../img/7.jpg" ></a>
-                <div>
-                    <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                    <p class="article_texto">Cuando bajaron el Smash.</p>
-                    <p class="fecha">31/10/2020</p>
-                </div>
-            </article>
-            <article>
-                <a title="Smach" href=""><img src="../img/7.jpg" ></a>
-                <div>
-                    <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                    <p class="article_texto">Cuando bajaron el Smash.</p>
-                    <p class="fecha">31/10/2020</p>
-                </div>
-            </article>
-            <article>
-                <a title="Smach" href=""><img src="../img/7.jpg" ></a>
-                <div>
-                    <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                    <p class="article_texto">Cuando bajaron el Smash.</p>
-                    <p class="fecha">31/10/2020</p>
-                </div>
-            </article>
-            <input type="button" class="leer_noticias" value="Más artículos">
+            <input type="button" class="leer_noticias" value="Más artículos" onclick = "addElemento();">
         </main>
         <aside>
             <h2 class="section__titulo">Lo más popular</h2>
@@ -98,5 +71,5 @@
             </div>
         </footer>
     </body>
-    <script src="../Recursos.js"></script>
+    <script src="../JS/cargarArticulos.js"></script>
 </html>
