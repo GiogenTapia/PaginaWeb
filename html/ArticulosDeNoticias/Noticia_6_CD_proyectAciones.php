@@ -21,6 +21,20 @@
                         <li class="menu__item"><a class="menu__link" href="../resenas.php">Reseñas</a></li>
                         <li class="menu__item"><a class="menu__link " href="../videos.php">Videos</a></li>
                         <li class="menu__item"><a class="menu__link" href="../foroCat.php">Foros</a></li>
+                         <?php
+                    session_start();
+                    require '../conexion.php';
+
+                    ?>
+                    <?php  if($_SESSION==true){
+                       ?>
+                        <li class="menu__item"><a class="menu__link" href="../perfil.php">Perfil</a></li>
+
+                     <?php }else { ?>
+                            <li class="menu__item"><a class="menu__link" href="../login.php">Login</a></li>
+
+
+                                <?php } ?>
                         
                     </ul>
                 </nav>
