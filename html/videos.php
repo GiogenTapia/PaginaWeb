@@ -29,10 +29,10 @@
                     ?>
                     <?php  if($_SESSION==true){
                        ?>
-                        <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
+                        <li class="menu__item"><a class="menu__link" href="perfil.php">Perfil</a></li>
 
                      <?php }else { ?>
-                            <li class="menu__item"><a class="menu__link" href="html/login.php">Login</a></li>
+                            <li class="menu__item"><a class="menu__link" href="login.php">Login</a></li>
 
 
                                 <?php } ?>
