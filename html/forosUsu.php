@@ -83,7 +83,19 @@
                 <p class="fecha">31/10/2020</p>
             </div>
         </article>
+
+
+
+
+         <?php
+
+                    require 'conexion.php';
+
+                    ?>
+                    <?php  if($_SESSION==true){
+                       ?>
         <a href="nuevoForo.php"><input type="button" class="leer_noticias" value="Agregar Foro"></a>
+           <?php } ?>
     </main>
 
     <footer class="footer">
@@ -97,12 +109,7 @@
         </div>
     </footer>
 
-    <<<<<<< HEAD:html/forosUsu.html <script src="../JS/Recursos.js">
-        </script>
+
 </body>
 
 </html>
-=======
-
-</html>
->>>>>>> origin/master:forosUsu.php
