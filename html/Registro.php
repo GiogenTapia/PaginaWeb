@@ -46,7 +46,7 @@
 
 
 
-<form method="post" action="guardar.php" id="formulario" onsubmit="return validar();">
+<form method="post" action="guardar.php" id="formulario">
         <h2 id="titulo_login">Registro</h2>
 
             <input type="text" name="nombre" placeholder="Nombre de usuario">
@@ -55,7 +55,7 @@
     <input type="text" name="apellidos" placeholder="Apellidos">
     <input type="text" name="telefono" placeholder="Telefono">
 
-    <button type="submit" class="leer_noticias" id="btnresenas" onclick="getDatos();">Registrar</button>
+    <button type="submit" class="leer_noticias" id="btnresenas" onclick="getDatos()">Registrar</button>
 
 
         </form>

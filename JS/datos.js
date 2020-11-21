@@ -1,10 +1,10 @@
-var getDatos= function(){
+var getDatos = function () {
 var correo = document.getElementById("correo").value;
 var nombre = document.getElementById("nombre").value;
 var Apellidos = document.getElementById("Apellidos").value;
 var Telefono = document.getElementById("Telefono").value;
      if(nombre==""){
-            document.getElementById("nombre").focus();
+            alert("No se pudo puto");
         }
 
      if(correo==""){
