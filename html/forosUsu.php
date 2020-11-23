@@ -43,49 +43,7 @@
     </header>
     <main>
         <h2 class="section__titulo">FOROS</h2>
-        <article>
-            <a title="Smach" href=""><img src="../img/7.jpg"></a>
-            <div>
-                <a class="article_titulo" href="">
-                        A que no sabias de Snake
-                    </a>
-                <p class="article_texto">El Smach anda barato, cómpralo en corto.</p>
-                <p class="fecha">31/10/2020</p>
-            </div>
-        </article>
-        <article>
-            <a title="Smach" href=""><img src="../img/N_5.jpg"></a>
-            <div>
-                <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                <p class="article_texto">Cuando bajaron el Smash.</p>
-                <p class="fecha">31/10/2020</p>
-            </div>
-        </article>
-        <article>
-            <a title="Smach" href=""><img src="../img/7.jpg"></a>
-            <div>
-                <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                <p class="article_texto">Cuando bajaron el Smash.</p>
-                <p class="fecha">31/10/2020</p>
-            </div>
-        </article>
-        <article>
-            <a title="Smach" href=""><img src="../img/7.jpg"></a>
-            <div>
-                <a class="article_titulo" href="">
-                        #ViernesRetro: El Smash anda barato
-                    </a>
-                <p class="article_texto">Cuando bajaron el Smash.</p>
-                <p class="fecha">31/10/2020</p>
-            </div>
-        </article>
-
-
-
+      
 
          <?php
 
