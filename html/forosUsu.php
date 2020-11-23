@@ -9,6 +9,10 @@
     <title>Documento xD</title>
 </head>
 
+
+
+
+
 <body>
     <header class="header">
         <div class="contenedor">
@@ -43,12 +47,38 @@
     </header>
     <main>
         <h2 class="section__titulo">FOROS</h2>
-      
 
+        <?php
+   
+     require 'conexion.php';
+     
+    $query = mysqli_query($conectar,"SELECT * FROM foros");
+
+       if($query){
+       while($row=$query->fetch_array()){
+             $ID=$row['id'];
+             $Usu=$row['id_us'];
+             $Titulo=$row['titulo'];
+             $Categoria=$row['categoria'];
+             $Contenido=$row['contenido'];
+          
+             echo " <div id = container>
+             <article>
+                 <a title=$Titulo href=foro.php?variable1=$ID><img src=../img/7.jpg ></a>
+                 <div>
+                     <a class=article_titulo href=foro.php?variable1=$ID>
+                         $Titulo
+                     </a>
+                 </div>
+             </article>
+             </div>";
+
+         }
+       }
+    
+?>      
          <?php
-
                     require 'conexion.php';
-
                     ?>
                     <?php  if($_SESSION==true){
                        ?>

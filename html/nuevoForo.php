@@ -43,7 +43,8 @@
     </header>
 
     <main>
-        <h2 class="section__titulo">NUEVO FORO</h2>
+    <h2 class="section__titulo">NUEVO FORO</h2>
+    <form method="post" action="registrarForo.php" id="formForo">
         <article>
             <input type="text" name="titulo" id="titulo" placeholder="TITULO" class="titulo_Foro">
             <label for="categoria">Categoria:</label>
@@ -55,8 +56,11 @@
               </select>
             <textarea name="contenidoForo" id="contenidoForo" class="contenido_foro" placeholder="Contenido"></textarea>
         </article>
+        <input type="submit" class="agregar_foro" id="btnAgregar" value="AGREGAR">
+        </form>
+
     </main>
-    <input type="button" class="agregar_foro" id="btnAgregar" value="AGREGAR">
+  
 
 
     <footer class="footer">
