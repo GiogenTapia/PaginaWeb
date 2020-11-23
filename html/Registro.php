@@ -72,8 +72,8 @@
      <footer class="footer">
         <div class="contenedor">
             <div class="social">
-                <a href="#" class="icon-facebook"></a>
-                <a href="#" class="icon-twitter"></a>
+                <a href="https://www.facebook.com/Bloodofgamermx-108232427492486/" class="icon-facebook"></a>
+                <a href="https://twitter.com/BloodOfGamerMX" class="icon-twitter"></a>
 
             </div>
             <p class="copy">&copy; BLOOD OF GAMER </p>
