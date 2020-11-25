@@ -65,7 +65,7 @@
           
              echo " <div id = container>
              <article>
-                 <a title=$Titulo href=foro.php?variable1=$ID><img src=../img/7.jpg ></a>
+                 <a title=$Titulo href=foro.php?variable1=$ID><img src=../img/XBOX.png ></a>
                  <div>
                      <a class=article_titulo href=foro.php?variable1=$ID>
                          $Titulo
