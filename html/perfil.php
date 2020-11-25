@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    require 'conexion.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -33,8 +37,6 @@
          <img src="../img/linea.jpg" id="linea">
 
 <?php
-    session_start();
-     require 'conexion.php';
      $nombre= $_SESSION['nombre'];
 
     $query = mysqli_query($conectar,"SELECT * FROM login WHERE nombre = '".$nombre."'");

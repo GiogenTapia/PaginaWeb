@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    require 'html/conexion.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -34,11 +38,6 @@
                     <li class="menu__item"><a class="menu__link" href="html/resenas.php">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link" href="html/videos.php">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="html/foroCat.php">Foros</a></li>
-                    <?php
-                    session_start();
-                    require 'html/conexion.php';
-
-                    ?>
                     <?php  if($_SESSION==true){
                        ?>
                         <li class="menu__item"><a class="menu__link" href="html/perfil.php">Perfil</a></li>
