@@ -74,3 +74,14 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+create table foros(
+id int auto_increment not null primary key,
+id_us int not null ,
+titulo varchar(50) not null,
+categoria varchar(50) not null,
+contenido longtext not null,
+fecha datetime not null,
+constraint foreign key (id_us) references login(ID_login)
+);

@@ -36,16 +36,16 @@ function test_input($data) {
 
 
 
-$insertar = "INSERT INTO foros VALUES (0,10,'$Titulo','$Categoria','$Contenido')";
+$insertar = "INSERT INTO foros VALUES (0,10,'$Titulo','$Categoria','$Contenido',CURRENT_TIMESTAMP())";
 $query= mysqli_query($conectar,$insertar);
 
 if($query){
     echo "<script> alert('Tu foro se registro');
-    location.href='forosUsu.php';
+    location.href='foroCat.php';
     </script>";
 }else{
     echo "<script> alert('tu usuario no se registro');
-    location.href='forosUsu.php';
+    location.href='foroCat.php';
     </script>";
 
 }

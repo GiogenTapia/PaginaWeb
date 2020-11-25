@@ -52,7 +52,7 @@
    
      require 'conexion.php';
      
-    $query = mysqli_query($conectar,"SELECT * FROM foros where categoria='nintendo'");
+    $query = mysqli_query($conectar,"SELECT * FROM foros where categoria='pc'");
 
        if($query){
        while($row=$query->fetch_array()){
@@ -65,7 +65,7 @@
           
              echo " <div id = container>
              <article>
-                 <a title=$Titulo href=foro.php?variable1=$ID><img src=../img/Nintendo.jpg ></a>
+                 <a title=$Titulo href=foro.php?variable1=$ID><img src=../img/PC.png ></a>
                  <div>
                      <a class=article_titulo href=foro.php?variable1=$ID>
                          $Titulo

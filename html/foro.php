@@ -58,6 +58,7 @@
            $Titulo=$row['titulo'];
            $Categoria=$row['categoria'];
            $Contenido=$row['contenido'];
+           $Fecha=$row['fecha'];
         
            echo " 
            <div class=portada>
@@ -65,7 +66,7 @@
            <div class=texto-encima>
                <h1>$Titulo</h1>
            </div>
-           <p class=fecha>Jueves 26 de Noviembre del 2020</p>
+           <p class=fecha>$Fecha</p>
        </div>
        <main>
        <p>$Contenido</p>

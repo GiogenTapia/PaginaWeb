@@ -56,7 +56,7 @@
         </article>
         <article>
 
-            <a href="forosUsu.php"><img src="../img/XBOX.png"></a>
+            <a href="foroXbox.php"><img src="../img/XBOX.png"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">XBOX</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de Xbox.</div>
@@ -64,14 +64,14 @@
         </article>
         <article>
 
-            <a href="forosUsu.php"><img src="../img/Play.jpg"></a>
+            <a href="foroPs.php"><img src="../img/Play.jpg"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">Playstation</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de Playstation.</div>
             </div>
         </article>
         <article>
-            <a href="forosUsu.php"><img src="../img/PC.png"></a>
+            <a href="foroPc.php"><img src="../img/PC.png"></a>
             <div class="foro__descripcion">
                 <h2 class="foro__titulo">PC</h2>
                 <div class="foro__txt">Enterate de lo que piensan las personas respecto al mundo de PC.</div>
