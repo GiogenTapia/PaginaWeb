@@ -81,7 +81,7 @@
     
 ?>      
          <?php
-                    require 'conexion.php';
+                      require '../datos/conexion.php';
                     ?>
                     <?php  if($_SESSION==true){
                        ?>

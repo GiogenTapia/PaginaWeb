@@ -44,7 +44,7 @@
 
     <main>
     <h2 class="section__titulo">NUEVO FORO</h2>
-    <form method="post" action="registrarForo.php" id="formForo">
+    <form method="post" action="../datos/registrarForo.php" id="formForo">
         <article>
             <input type="text" name="titulo" id="titulo" placeholder="TITULO" class="titulo_Foro">
             <label for="categoria">Categoria:</label>

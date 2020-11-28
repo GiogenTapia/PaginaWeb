@@ -17,11 +17,12 @@ if($nr == 1)
 {
 
     $_SESSION['nombre']=$nombre;
-    header("location: perfil.php");
+    header("location: ../html/perfil.php");
 
 }
 else if( $nr == 0)
 {
-    echo "No ingreso";
+    header("location: ../html/login.php");
+
 }
 ?>

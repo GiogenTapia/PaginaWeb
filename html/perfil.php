@@ -63,7 +63,7 @@
     </div>
 
     </div>
-       <button type="button" class="leer_noticias" id="btncerrar" value="Leer mas noticias"><a href="cerrar.php">Cerrar</a></button>
+       <button type="button" class="leer_noticias" id="btncerrar" value="Leer mas noticias"><a href="../datos/cerrar.php">Cerrar</a></button>
      <footer class="footer">
         <div class="contenedor">
             <div class="social">

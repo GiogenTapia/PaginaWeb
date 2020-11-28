@@ -28,35 +28,43 @@ class Usuario {
     }
 
     public function getContra() {
-        return $this->pass;
+        return $this->Pass;
     }
 
     public function setContra($password) {
-        $this->password = $password;
+        $this->Pass = $password;
         return $this;
     }
 
-    public function getNickname() {
-        return $this->nickname;
+    public function getNombre() {
+        return $this->Nombre;
     }
 
-    public function setNickname($nickname) {
-        $this->nickname = $nickname;
+    public function setNombre($nombre) {
+        $this->Nombre = $nombre;
         return $this;
     }
 
-    public function toArray() {
-        return [
-            'id' => $this->id,
-            'email' => $this->email,
-            'password' => $this->password,
-            'nickname' => $this->nickname,
-        ];
+
+    public function getApellido() {
+        return $this->Apellido;
     }
 
-    public function toJson() {
-        return json_encode($this->toArray());
+    public function setApellido($apellido) {
+        $this->Apellido = $apellido;
+        return $this;
     }
+
+    public function getTelefono() {
+        return $this->Telefono;
+    }
+
+    public function setTelefono($telefono) {
+        $this->Telefono = $telefono;
+        return $this;
+    }
+  
+
 
 }
 ?>

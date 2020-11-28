@@ -30,7 +30,7 @@
                     <li class="menu__item"><a class="menu__link" href="resenas.php">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link " href="videos.php">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="foroCat.php">Foros</a></li>
-                            <li class="menu__item"><a class="menu__link select" href="html/login.php">Login</a></li>
+                            <li class="menu__item"><a class="menu__link select" href="login.php">Login</a></li>
 
 
 
@@ -46,7 +46,7 @@
 
 
 
-<form method="post" action="guardar.php" id="formulario">
+<form method="post" action="../datos/guardar.php" id="formulario">
         <h2 id="titulo_login">Registro</h2>
 
             <input type="text" name="nombre" placeholder="Nombre de usuario">

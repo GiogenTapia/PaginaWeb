@@ -40,7 +40,7 @@
 
 
 
-<form method="post"action="loguear.php" id="formulario">
+<form method="post"action="../datos/loguear.php" id="formulario">
         <h2 id="titulo_login">Inicia sesión</h2>
 
             <input type="text" name="nombre" placeholder="Nombre de Usuario">
