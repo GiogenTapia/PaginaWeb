@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require 'conexion.php';
+    require '../datos/conexion.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -82,7 +82,8 @@
 
                 <?php
 
-                    require 'conexion.php';
+require '../datos/conexion.php';
+
 
                     ?>
                     <?php  if($_SESSION==true){

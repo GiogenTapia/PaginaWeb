@@ -1,6 +1,7 @@
 <?php
     session_start();
-    require 'html/conexion.php';
+    require 'datos/conexion.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="es">

@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require 'conexion.php';
+    require '../datos/conexion.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -46,7 +46,8 @@
     <?php
     $idForo=($_GET['variable1']);
    
-   require 'conexion.php';
+    require '../datos/conexion.php';
+
    
   $query = mysqli_query($conectar,"SELECT * FROM foros where ID= $idForo");
 
