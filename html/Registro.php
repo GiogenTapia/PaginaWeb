@@ -3,15 +3,35 @@
 
 <head>
     <link rel="stylesheet" href="../css/Estilos2.css">
-     <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
+    <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento xD</title>
     <script src="../JS/validar.js"></script>
     <style>
-            .error {color: #FF0000;}
-        </style>
+    .error {
+        color: #FF0000;
+    }
+    </style>
 </head>
+
+<?php 
+    if(strtoupper($_SERVER['REQUEST_METHOD']) == 'POST'){
+        //echo "Viene del POST (Formulario).";
+        require '../pojos/usuario.php';
+        require '../datos/guardar.php';
+
+        $usuario = new Usuario();
+        $usuario->setNombre($_POST['nombre']);
+        $usuario->setContra($_POST['pass']);
+        $usuario->setCorreo($_POST["correo"]);
+        $usuario->setApellido($_POST['apellidos']);
+        $usuario->setTelefono($_POST['telefono']);
+        $bd = new guardar();
+        $bd->insertarUsuario($usuario);
+    }
+    ?>
+
 
 <body>
 
@@ -30,7 +50,7 @@
                     <li class="menu__item"><a class="menu__link" href="resenas.php">Reseñas</a></li>
                     <li class="menu__item"><a class="menu__link " href="videos.php">Videos</a></li>
                     <li class="menu__item"><a class="menu__link" href="foroCat.php">Foros</a></li>
-                            <li class="menu__item"><a class="menu__link select" href="login.php">Login</a></li>
+                    <li class="menu__item"><a class="menu__link select" href="login.php">Login</a></li>
 
 
 
@@ -40,22 +60,22 @@
     </header>
     <div class="contenedor_login">
         <img src="../img/LogoSinFondo.png" id="logologin">
-         <img src="../img/linea.jpg" id="linea">
+        <img src="../img/linea.jpg" id="linea">
 
 
 
 
 
-<form method="post" action="../datos/guardar.php" id="formulario">
-        <h2 id="titulo_login">Registro</h2>
+        <form method="post" action="Registro.php" id="formulario">
+            <h2 id="titulo_login">Registro</h2>
 
             <input type="text" name="nombre" placeholder="Nombre de usuario">
             <input type="text" name="pass" placeholder="Contraseña">
-    <input type="text" name="correo" placeholder="correo">
-    <input type="text" name="apellidos" placeholder="Apellidos">
-    <input type="text" name="telefono" placeholder="Telefono">
+            <input type="text" name="correo" placeholder="correo">
+            <input type="text" name="apellidos" placeholder="Apellidos">
+            <input type="text" name="telefono" placeholder="Telefono">
 
-    <button type="submit" class="leer_noticias" id="btnresenas" onclick="getDatos()">Registrar</button>
+            <button type="submit" class="leer_noticias" id="btnresenas">Registrar</button>
 
 
         </form>
@@ -69,7 +89,7 @@
 
     </div>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="contenedor">
             <div class="social">
                 <a href="https://www.facebook.com/Bloodofgamermx-108232427492486/" class="icon-facebook"></a>
