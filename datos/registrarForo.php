@@ -1,30 +1,33 @@
 <?php
+class forosReg{
 
+    public function guardarForo($foro){
 
 require 'conexion.php';
 
-$Titulo = $_POST['titulo'];
-$Categoria = $_POST['categoria'];
-$Contenido =$_POST["contenidoForo"];
+$Titulo = $foro->getTitulo();
+$Categoria = $foro->getCategoria();
+$Contenido = $foro->getContenido();
+
 
      /*   VALIDAR CONTRASEÑA     */
 
-if(empty($_POST["titulo"])){
- echo "<script>alert('campo nombre de usuario vacio');
+if(empty($Titulo)){
+ echo "<script>alert('titulo vacio');
  location.href='nuevoForo.php';</script>";
        }
 
      /*   VALIDAR CONTRASEÑA     */
 
-if(empty($_POST["categoria"])){
- echo "<script>alert('campo contraseña vacio');
+if(empty($Categoria)){
+ echo "<script>alert('categoria vacia');
  location.href='nuevoForo.php';</script>";
        }
 
 
 /*   validarForo  */
- if(empty($_POST["contenidoForo"])){
- echo "<script>alert('campo nombre vacio');
+ if(empty($Contenido)){
+ echo "<script>alert('contenido vacio');
  location.href='nuevoForo.php';</script>";
        }
 function test_input($data) {
@@ -49,3 +52,8 @@ if($query){
     </script>";
 
 }
+
+    }
+}
+
+?>

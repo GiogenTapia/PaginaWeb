@@ -6,7 +6,7 @@
     <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento xD</title>
+    <title>Registrate</title>
     <script src="../JS/validar.js"></script>
     <style>
     .error {

@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
      <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento xD</title>
+    <title>Perfil</title>
 </head>
 
 <body>

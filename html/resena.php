@@ -12,7 +12,7 @@
     <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/reseña.css">
     <link rel="stylesheet" href="../css/principal.css">
-    <title>Document</title>
+    <title>Resenia</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
 
     <main>
         <article class="img_article">
-            <img src="../img/zelda.jpg" class="img_resenia">
+            <img src="../img/zelda2.jpg" class="img_resenia">
 
             <div class="resenia__descripcion">
                 <h2 class="circulo" id="calificacion"> 9.0</h2>

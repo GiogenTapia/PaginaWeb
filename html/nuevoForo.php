@@ -15,6 +15,22 @@
     <link href="https://file.myfontastic.com/Nn5TSPRUBW8ownLj5YNeV6/icons.css" rel="stylesheet">
 </head>
 
+
+<?php 
+    if(strtoupper($_SERVER['REQUEST_METHOD']) == 'POST'){
+        //echo "Viene del POST (Formulario).";
+        require '../pojos/foros.php';
+        require '../datos/registrarForo.php';
+
+        $foro = new Foro();
+        $foro->setTitulo($_POST['titulo']);
+        $foro->setCategoria($_POST['categoria']);
+        $foro->setContenido($_POST["contenidoForo"]);      
+        $bd = new forosReg();
+        $bd->guardarForo($foro);
+    }
+    ?>
+
 <body>
     <header class="header">
         <div class="contenedor">
@@ -44,7 +60,7 @@
 
     <main>
     <h2 class="section__titulo">NUEVO FORO</h2>
-    <form method="post" action="../datos/registrarForo.php" id="formForo">
+    <form method="post" action="nuevoForo.php" id="formForo">
         <article>
             <input type="text" name="titulo" id="titulo" placeholder="TITULO" class="titulo_Foro">
             <label for="categoria">Categoria:</label>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/foro.css">
     <link rel="stylesheet" href="../css/principal.css">
 
-    <title>Document xD</title>
+    <title>Foro Categoria</title>
 </head>
 
 <body>
